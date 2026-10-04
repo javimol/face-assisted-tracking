@@ -1,0 +1,18 @@
+# Original coursework folder (kept locally, not versioned)
+TecnicasBiometricas/
+
+# Face images are biometric data: never commit them
+data/*
+!data/README.md
+
+# Generated output (results/original_predictions.csv is versioned)
+results/predictions.csv
+
+# MATLAB / OS artifacts
+*.asv
+*.m~
+*.mat
+Thumbs.db
+.DS_Store
+~$*
+.~lock.*
